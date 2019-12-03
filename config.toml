@@ -1,0 +1,36 @@
+languageCode = "en-us"
+title = "Te huur"
+theme = "ananke"
+#baseURL="http://localhost"
+baseURL="http://192.168.0.167"
+
+
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+   changefreq = "weekly"
+   priority = 0.5
+   filename = "sitemap.xml"
+
+[params]
+   favicon = ""
+   description = "Appartement te huur"
+   facebook = ""
+   twitter = ""
+   instagram = ""
+   youtube = ""
+   github = ""
+   gitlab = ""
+   linkedin = ""
+   mastodon = ""
+   slack = ""
+# choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+   background_color_class = "bg-dark-gray"
+# 33   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+   recent_posts_number = 2
