@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Te huur"
 theme = "ananke"
 #baseURL="http://localhost"
-baseURL="http://192.168.0.167"
+baseURL=""
 
 
 
